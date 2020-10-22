@@ -1,6 +1,11 @@
 Beri.id Progress
 
 
+WEEK 2 
+- membuat UI aplikasi beri.id di android studio sesuai dengan prototype yg kami buat pada marvel app
+
+
+
 WEEK 1
 
 - membagi tugas perpage ke setiap anggota
@@ -37,5 +42,3 @@ FELICIA ANGELINE
 
 
 
-WEEK 2 
-- membuat UI aplikasi beri.id di android studio 
