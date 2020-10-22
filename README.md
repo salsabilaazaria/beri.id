@@ -35,9 +35,9 @@ SALSABILA AZARIA
     - see specific yayasan : dari liat semua list yayasan, bisa pencet 1 yayasan, trs liat detail yayasannya
     
 FELICIA ANGELINE
-- history transaction (kayak shopee) → dari profile
-    - yayasan : history dia nerima barang sumbangannya
-    - client : history barang yg disumbang
+- history transaction → dari profile
+    - yayasan : history pihak yayasan menerima barang sumbangan baik sumabangan yang sedang on process dan done
+    - client : history barang yg disumbang dari donator baik sumabangan yang sedang on process dan done
 - membuat user interface untuk applikasi beri.id di marvelapp
 
 
