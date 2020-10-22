@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f8f6f9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/beri.id"
+        android:text="beri.id"
+        android:textSize="16pt"
+        android:textAlignment="center"
+        android:textColor="#f8f6f9"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2D2E2B"
+        />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:background="#2e2d2b"
+        app:itemIconTint="#f8f6f9"
+        app:itemIconSize="90px"
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_below="@id/beri.id">
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/historybar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/beri.id">
+
+        <TextView
+            android:id="@+id/history"
+            android:text="HISTORY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E06465"
+            android:padding="8dp"
+            android:layout_margin="0px"
+            android:textAlignment="center"
+            android:textColor="#F8F6F9"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E06456"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            app:icon="@drawable/ic_baseline_arrow_back_24" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/history_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/historybar"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E06465"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/onprocess"
+                android:layout_width="540px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="0dp"
+                android:backgroundTint="#E06465"
+                android:text="ON PROCESS"
+                android:textColor="#F8F6F9"
+                android:textSize="20sp"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:id="@+id/done"
+                android:layout_width="540px"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="0dp"
+                android:backgroundTint="#E06465"
+                android:text="DONE"
+                android:textColor="#F8F6F9"
+                android:textSize="20sp"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/history_buttons"
+        android:layout_above="@id/bottom_navigation">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
