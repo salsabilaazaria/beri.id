@@ -1,0 +1,8 @@
+com/beri/beriid/signin.java
+ com.beri.beriid.signin
+com/beri/beriid/BuildConfig.java
+ com.beri.beriid.BuildConfig
+com/beri/beriid/signup.java
+ com.beri.beriid.signup
+com/beri/beriid/MainActivity.java
+ com.beri.beriid.MainActivity
